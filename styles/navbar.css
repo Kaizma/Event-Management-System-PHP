@@ -1,0 +1,77 @@
+#admin-heading {
+  background: #000;
+}
+/* Container for the entire navigation bar */
+.nav-bar {
+  background-color: #0b3954; /* Primary color for the navbar background */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Styles for the links in the left section */
+.nav-bar-left a {
+  color: #f4bfdb; /* Light accessory color for the text */
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold; /* Make text bold */
+  transition: background 0.3s ease;
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Add a background color on hover */
+.nav-bar-left a:hover {
+  background-color: #087e8b; /* Secondary color for hover effect */
+}
+
+/* Active link (Home page) styling */
+.nav-bar-left a.nav-active {
+  background-color: #ba274a; /* Tertiary color for active link */
+  color: #ffe9f3; /* Very light pink accessory color */
+  border-radius: 4px;
+}
+
+/* Styles for the right section links */
+.nav-bar-right a {
+  color: #f4bfdb; /* Light accessory color for text */
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Add hover effect for right section links */
+.nav-bar-right a:hover {
+  background-color: #087e8b; /* Secondary color for hover effect */
+}
+
+.nav-bar-right a.nav-active {
+  background-color: #ba274a; /* Tertiary color for active link */
+  color: #ffe9f3; /* Very light pink accessory color */
+  border-radius: 4px;
+}
+
+/* For smaller screens, responsive design */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    text-align: center;
+  }
+
+  .nav-bar-left,
+  .nav-bar-right {
+    margin: 5px 0;
+  }
+
+  .nav-bar-left a,
+  .nav-bar-right a {
+    padding: 10px; /* Adjust padding for smaller screens */
+    display: block; /* Make each link span the full width */
+  }
+}

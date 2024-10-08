@@ -1,0 +1,83 @@
+/* Container Styling */
+.form-container {
+  width: 100%;
+  max-width: 600px; /* Adjust based on desired width */
+  margin: 0 auto;
+  background-color: #0b3954; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+/* Form Heading */
+#form-heading {
+  color: #ffe9f3; /* Accessory color */ /* Secondary color from your palette */
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Section Styling */
+.form-section {
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white; /* Primary color from your palette */
+}
+
+/* Input Fields and Select Styling */
+input[type="date"],
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #087e8b; /* Secondary color */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #0b3954; /* Text color */
+  font-size: 16px;
+}
+
+/* Radio Button Group Styling */
+.radios {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+  margin-right: 5px;
+}
+.radios {
+  color: white;
+}
+/* Submit Button */
+input[type="submit"] {
+  background-color: #ba274a; /* Tertiary color */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #087e8b; /* Hover effect with secondary color */
+}
+
+/* Additional Spacing */
+textarea {
+  resize: vertical; /* Allow resizing vertically */
+}

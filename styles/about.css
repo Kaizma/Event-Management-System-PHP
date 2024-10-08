@@ -1,0 +1,44 @@
+.div-one {
+  display: flex;
+}
+
+.div-one-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.div-one-right {
+  flex: 2;
+}
+
+.div-two {
+  display: flex;
+  justify-content: space-between; /* This evenly spaces the items */
+}
+
+.div-two-item {
+  /* Remove margins for better spacing between items */
+  margin: 0;
+  padding: 10px; /* Add some padding for better visuals */
+  /* Optional: Set a fixed width for each item if needed */
+  /* width: 200px;  */
+  text-align: center; /* Center the image and text within the container */
+}
+
+.div-two-item img {
+  /* Adjust image size as needed */
+  width: 64px;
+  height: 64px;
+  display: block; /* Make the image block-level to apply centering */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.div-two-item p {
+  /* Adjust text style as needed */
+  margin-top: 5px; /* Add space between image and text */
+}

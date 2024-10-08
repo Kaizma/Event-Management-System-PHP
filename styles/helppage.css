@@ -1,0 +1,108 @@
+.body-content {
+  font-family: "Arial", sans-serif;
+}
+h2 {
+  color: #0b3954; /* Primary color */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* FAQ Section */
+#faqs {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  margin-bottom: 30px;
+}
+
+.faq {
+  margin-bottom: 20px;
+}
+
+.faq h3 {
+  color: #087e8b; /* Secondary color */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.faq p {
+  color: #333333; /* Dark text color */
+  font-size: 16px;
+}
+
+/* Help Form Section */
+#help-form {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between input fields */
+}
+
+label {
+  font-size: 16px;
+  color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Make sure padding doesn't exceed width */
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 100px; /* Minimum height for message box */
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background-color: #ba274a; /* Tertiary color */
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #087e8b; /* Secondary color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #faqs,
+  #help-form {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .faq h3 {
+    font-size: 18px;
+  }
+
+  form {
+    gap: 10px;
+  }
+}

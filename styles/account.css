@@ -1,0 +1,98 @@
+/* Profile Container */
+.profile-container {
+  background-color: #ffffff; /* White background for contrast */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 500px;
+  width: 100%; /* Full width but constrained by max-width */
+  align-self: center;
+}
+
+/* Profile Header */
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Profile Image */
+.profile-header-left img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Keeps image aspect ratio */
+  border: 3px solid #087e8b; /* Border matching the secondary color */
+}
+
+/* Profile Header Right */
+.profile-header-right {
+  margin-left: 15px;
+}
+
+.profile-header-right h1 {
+  color: #0b3954; /* Primary color */
+  font-size: 24px;
+  margin: 0;
+}
+
+.profile-header-right p {
+  color: #087e8b; /* Secondary color */
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Profile Details Section */
+.profile-details h2 {
+  color: #0b3954; /* Primary color */
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.profile-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-details ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333333; /* Neutral text color */
+}
+
+/* Strong emphasis for labels */
+.profile-details ul li strong {
+  color: #087e8b; /* Emphasize with secondary color */
+}
+
+/* Address element */
+.profile-details address {
+  font-style: normal; /* Normal font for address */
+  color: #333333;
+}
+
+/* Log Out Button */
+.profile-details a button {
+  background-color: #ba274a; /* Tertiary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.profile-details a button:hover {
+  background-color: #087e8b; /* Secondary color on hover */
+}
+.body-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}

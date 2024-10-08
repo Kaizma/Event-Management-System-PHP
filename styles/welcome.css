@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Welcome Header */
+.welcome-header {
+  background-color: #0b3954; /* Primary color */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-image: url("../images/weddinghallblur.png");
+  min-height: 35%;
+}
+
+#company-name {
+  font-size: 72px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#company-slogan {
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Body Content */
+.body-content {
+  padding: 20px;
+}
+
+.body-content-intro {
+  margin-bottom: 20px;
+  font-family: serif;
+  font-style: italic;
+  font-size: large;
+  background-color: #deb64b;
+  padding: 0px 10px 0px 10px;
+}
+
+#company-intro-para {
+  line-height: 1.5;
+}
+
+/* Services */
+.body-content-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  background-color: #f4bfdb; /* Accessory color */
+  border: 1px solid #087e8b; /* Secondary color */
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.service-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.service-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-para {
+  line-height: 1.5;
+}
+
+/* Color Palette */
+/* Primary: #0B3954 */
+/* Secondary: #087E8B */
+/* Tertiary: #BA274A */
+/* Accessory: #F4BFDB, #FFE9F3 */

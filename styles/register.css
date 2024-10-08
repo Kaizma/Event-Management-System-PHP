@@ -1,0 +1,19 @@
+#Register_btn1{
+	background-color:#b6bd50;
+	border: none;
+	color: white;
+	padding: 8px 35px;
+	text-align: center;
+	text-decoration:none;
+	display:rgb(164, 79, 79);
+	font-size:16px;
+	margin: 6px 4px ;
+	cursor: pointer;
+	border-radius: 50px
+}
+
+#Register_btn1:hover{
+	background: #f0985a;
+	border-radius: 50px;
+	color: black;		
+}

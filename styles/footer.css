@@ -1,0 +1,86 @@
+/* Footer Container */
+.footer {
+  background-color: #0b3954; /* Primary color for footer background */
+  color: #f4bfdb; /* Light accessory color for text */
+  padding: 30px 20px;
+  display: flex; /* Flexbox to align left and right sections */
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Vertically center content */
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  /* Limit footer width for better balance */
+  margin: 0; /* Center the entire footer on the page */
+}
+
+/* Left Section */
+.footer-left {
+  width: 48%; /* Take 48% of the available space */
+}
+
+#footer-left-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f4bfdb; /* Light accessory color for heading */
+  margin-bottom: 20px;
+}
+
+.footer-left-address,
+.footer-left-email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#footer-address-icon img,
+#footer-email-icon img {
+  width: 30px; /* Size of icons */
+  height: 30px;
+  margin-right: 10px;
+}
+
+#footer-address-text p,
+#footer-email-text p {
+  margin: 0;
+  color: #ffe9f3; /* Slightly lighter accessory color for text */
+}
+
+/* Right Section */
+.footer-right {
+  width: 48%; /* Take 48% of the available space */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align the text to the left */
+}
+
+.footer-right-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Remove any default margin for better centering */
+}
+
+.footer-right-list li {
+  margin-bottom: 10px;
+  color: #f4bfdb;
+  transition: color 0.3s ease;
+  text-align: left;
+}
+
+.footer-right-list li:hover {
+  color: #087e8b; /* Secondary color on hover */
+  cursor: pointer;
+}
+
+/* Optional: Add responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack left and right sections on small screens */
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%; /* Full width on small screens */
+    margin-bottom: 20px;
+  }
+}

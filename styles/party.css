@@ -1,0 +1,142 @@
+/* General Body Content Styling */
+.body-content {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #0b3954; /* Primary color */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+  max-width: 500px;
+  color: #f4bfdb; /* Light accessory text color */
+  font-family: "Arial", sans-serif;
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #ffe9f3; /* Accessory color */
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* Form Section */
+.form-section {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #087e8b; /* Secondary color */
+  border-radius: 5px;
+  background-color: white;
+  color: #0b3954; /* Primary text color */
+}
+
+input[type="text"]::placeholder,
+input[type="date"]::placeholder,
+input[type="time"]::placeholder,
+input[type="number"]::placeholder {
+  color: #087e8b; /* Placeholder color */
+}
+
+/* Services Section */
+#services {
+  margin-bottom: 20px;
+}
+
+#services p {
+  font-size: 18px;
+  color: #f4bfdb;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-container label {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #087e8b; /* Secondary color */
+  color: #f4bfdb;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.services-container label:hover {
+  background-color: #ba274a; /* Tertiary color on hover */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Submit Button */
+#submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ba274a; /* Tertiary color */
+  color: #ffe9f3; /* Light accessory text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+  background-color: #087e8b; /* Secondary color on hover */
+}
+
+/* For consistent vertical spacing */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust based on desired spacing */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+  height: 100vh; /* Full screen height */
+  background-color: #0b3954; /* Dark background */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .form-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .services-container label {
+    width: 100%;
+  }
+}
